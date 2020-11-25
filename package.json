@@ -1,0 +1,25 @@
+{
+  "name": "any-node-to-tiff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "scripts": {
+    "startDemo": "parcel demo/index.html",
+    "build": "parcel build src/index.js --no-source-maps",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boykovdmitriy/any-node-to-tiff.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boykovdmitriy/any-node-to-tiff/issues"
+  },
+  "homepage": "https://github.com/boykovdmitriy/any-node-to-tiff#readme",
+  "dependencies": {
+    "html2canvas": "^1.0.0-rc.7"
+  }
+}
